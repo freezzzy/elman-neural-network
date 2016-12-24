@@ -1,0 +1,1 @@
+Model of Elman neural network with linear arctangent activation function
