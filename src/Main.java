@@ -74,6 +74,7 @@ public class Main extends JFrame {
             sequence = scaleSequence(sequence, z);
         }
         Matrix input = getInputMatrix(sequence);
+        System.out.println("Матрица обучения");
         input.print();
         Network network = new Network();
         double y = network.guessNext(

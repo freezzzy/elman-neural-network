@@ -126,12 +126,14 @@ public class Network {
 
         y = Layers[OUTPUT].neuronsList.a[0][0];
 
-        W1.print();
-        W2.print();
+//        System.out.println("Матрица весов W на первом слое:");
+//        W1.print();
+//        System.out.println("Матрица весов W' на втором слое:");
+//        W2.print();
 
-        Layers[CONTEXT].print("CONTEXT");
-        Layers[HIDDEN].print("HIDDEN");
-        Layers[OUTPUT].print("OUTPUT");
+//        Layers[CONTEXT].print("CONTEXT");
+//        Layers[HIDDEN].print("HIDDEN");
+//        Layers[OUTPUT].print("OUTPUT");
         System.out.println("E = " + E);
         System.out.println("ALPHA = " + alpha);
         System.out.println("StepsCount = " + stepsCount);
